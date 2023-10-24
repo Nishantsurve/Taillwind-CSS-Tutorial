@@ -14,21 +14,21 @@ const Navbar=() => {
     <div className= 'flex justify-between  items-center h-24 max-w-[1240px] mx-auto px-4  text-white'>
   <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT</h1>
   <ul className='hidden md:flex'>
-    <li className='p-4'>Home</li>
-    <li className='p-4'>Company</li>
-    <li className='p-4'>Resources</li>
-    <li className='p-4'>About</li>
-    <li className='p-4'>Contact</li>
+    <li className='p-4 text-2xl cursor-pointer'>Home</li>
+    <li className='p-4 mx-2 text-2xl cursor-pointer hover:bg-[#00df9a] rounded-md'>Company</li>
+    <li className='p-4 mx-2 text-2xl cursor-pointer  hover:bg-[#00df9a] rounded-md'>Resources</li>
+    <li className='p-4 mx-2 text-2xl cursor-pointer  hover:bg-[#00df9a] rounded-md'>About</li>
+    <li className='p-4 mx-2 text-2xl cursor-pointer  hover:bg-[#00df9a] rounded-md'>Contact</li>
   
   </ul>
    <div onClick={handlenav} className='block md:hidden'>
 
 
-    {!nav ? <AiOutlineClose size={20}/> :   <AiOutlineMenu  size={20} />}
+    {nav ? <AiOutlineClose size={20}/> :   <AiOutlineMenu  size={20} />}
   
    </div>
 
-   <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'fixed left-[-100%] '}>
+   <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'fixed left-[-100%] '}>
     
    <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4 '>REACT</h1>
     

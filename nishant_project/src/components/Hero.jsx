@@ -11,20 +11,21 @@ function Hero() {
        <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>Grow with data.
        </h1>
 
-       <div >
-          <p className='md:text-5xl sm:text-4xl  text-xl font-bold'> Coding can power up your brain          </p>
+       <div>
+          <p className='md:text-5xl sm:text-4xl  text-xl font-bold py-4'> Coding can power up your brain          </p>
 
         <Typed 
-        className='md:text-5xl sm:text-4xl  text-xl font-bold pl-2'
+        className='md:text-5xl sm:text-4xl pl-2 text-xl font-bold md:pl-4 pl-2'
          strings={['I' ,'am','a','Backend','Devloper']}
          typeSpeed={120}
          backSpeed={140}
          loop
         /> 
        </div>
+    <p className='md:text-2xl text-xl font-bold text-gray-500'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis animi soluta ad facilis minima quia, eveniet reprehenderit doloremqu.</p>
     
+    <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black '>Get started</button>
     </div>
-
     </div>
   )
 }
