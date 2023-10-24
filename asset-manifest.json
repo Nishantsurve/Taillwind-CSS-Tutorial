@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Taillwind-CSS-Tutorial/static/css/main.614fe14d.css",
+    "main.js": "/Taillwind-CSS-Tutorial/static/js/main.741b1309.js",
+    "static/media/laptop.jpg": "/Taillwind-CSS-Tutorial/static/media/laptop.45ddf500e572fb2f1d35.jpg",
+    "static/media/single.png": "/Taillwind-CSS-Tutorial/static/media/single.20196aa3e7e7fa48f8f7.png",
+    "static/media/double.png": "/Taillwind-CSS-Tutorial/static/media/double.8be045e6bb88be63d414.png",
+    "static/media/triple.png": "/Taillwind-CSS-Tutorial/static/media/triple.4eb8f19f4b4647321484.png",
+    "index.html": "/Taillwind-CSS-Tutorial/index.html",
+    "main.614fe14d.css.map": "/Taillwind-CSS-Tutorial/static/css/main.614fe14d.css.map",
+    "main.741b1309.js.map": "/Taillwind-CSS-Tutorial/static/js/main.741b1309.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.614fe14d.css",
+    "static/js/main.741b1309.js"
+  ]
+}
