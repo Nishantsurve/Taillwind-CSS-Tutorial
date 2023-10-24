@@ -1,4 +1,4 @@
-# Taillwind-CSS-Tutorial
+# Taillwind-CSS
 
 # Getting Started with Create React App
 
